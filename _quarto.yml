@@ -13,6 +13,7 @@ book:
     - transport_and_storage.qmd
     - references.qmd
   repo-url: https://github.com/mhpob/AT-SOP
+  repo-branch: master
   repo-actions: [edit]
 
 # bibliography: references.bib
