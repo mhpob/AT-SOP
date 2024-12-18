@@ -144,8 +144,18 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#innovasea-vr2ar-acoustic-receiver-recovery-and-ascent-acoustic-release" id="toc-innovasea-vr2ar-acoustic-receiver-recovery-and-ascent-acoustic-release" class="nav-link active" data-scroll-target="#innovasea-vr2ar-acoustic-receiver-recovery-and-ascent-acoustic-release"><span class="header-section-number">2.1</span> Innovasea VR2AR Acoustic Receiver Recovery and ASCENT Acoustic Release</a>
+  <ul class="collapse">
+  <li><a href="#deployment" id="toc-deployment" class="nav-link" data-scroll-target="#deployment"><span class="header-section-number">2.1.1</span> Deployment</a></li>
+  <li><a href="#troubleshooting" id="toc-troubleshooting" class="nav-link" data-scroll-target="#troubleshooting"><span class="header-section-number">2.1.2</span> Troubleshooting</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><ul><li><a href="https://github.com/mhpob/AT-SOP/edit/master/releases.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -169,8 +179,83 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<section id="innovasea-vr2ar-acoustic-receiver-recovery-and-ascent-acoustic-release" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="innovasea-vr2ar-acoustic-receiver-recovery-and-ascent-acoustic-release"><span class="header-section-number">2.1</span> Innovasea VR2AR Acoustic Receiver Recovery and ASCENT Acoustic Release</h2>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p>Adapted from protocols developed by Bonnie Ahr, Kennedy Space Center.</p>
+</div>
+</div>
+</div>
+<section id="deployment" class="level3" data-number="2.1.1">
+<h3 data-number="2.1.1" class="anchored" data-anchor-id="deployment"><span class="header-section-number">2.1.1</span> Deployment</h3>
+<ul>
+<li>Place VR100 on flat surface when possible</li>
+<li>Only connect the transponding hydrophone when receiver is powered OFF.</li>
+<li>Select <strong>TRANSPOND</strong> from VR100 main menu</li>
+<li>If “<strong>CANNOT COMMUNICATE WITH TRANSPONDER</strong><a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> appears, disconnect and reconnect the hydrophone then select <strong>TRANSPOND</strong> again</li>
+<li>Wait for the vessel to stop moving</li>
+<li>Place hydrophone in water and select <strong>TRANSPOND</strong> from VR100 main menu</li>
+<li>Select the <strong>ADD DEVICE</strong> option manually or by pressing “<strong>2</strong>”</li>
+<li>ADD the serial number of the unit you are hoping to release and press <strong>OK</strong></li>
+<li>Select <strong>ACOUSTIC RELEASE</strong> manually or by pressing “<strong>3</strong>”</li>
+<li>Select <strong>ACTIVATE</strong> manually or by pressing “<strong>3</strong>” again</li>
+<li>Listen for a response from the receiver through the VR100 speaker; “<strong>Sx</strong>”, where “<strong>x</strong>” is a number, may also flash on the screen. If the response is successfully received and decoded, you will see the message saying “<strong>Opening</strong>” in the deck box screen and the distance of the hydrophone from the receiver. If you heard a response from the speaker in the form of rhythmic “clicks” but did not see an “Opening” message, the unit has still been released</li>
+<li>After a few seconds, Select <strong>STATUS</strong> to update the release status and depth. If the release is successful, the screen will show the message “<strong>Open</strong>” and you should notice the depth changed. If the receiver is stuck at the same depth after a few <strong>STATUS</strong> attempts, you can consider the unit “stuck”</li>
+</ul>
+</section>
+<section id="troubleshooting" class="level3" data-number="2.1.2">
+<h3 data-number="2.1.2" class="anchored" data-anchor-id="troubleshooting"><span class="header-section-number">2.1.2</span> Troubleshooting</h3>
+<section id="poor-communication" class="level4" data-number="2.1.2.1">
+<h4 data-number="2.1.2.1" class="anchored" data-anchor-id="poor-communication"><span class="header-section-number">2.1.2.1</span> Poor Communication</h4>
+<ul>
+<li>Set <strong>TRANSMIT POWER</strong> to a lower setting to reduce echo noise. The default is 7 (high). Moving 30-50m from the location of the receiver may also help.</li>
+<li>You can also switch the detection parameter between Near, Normal, and Far. Most units will communicate better in the Normal setting, but if there is trouble establishing a connection, it is worth trying the other settings.</li>
+<li>Move the hydrophone away from the vessel’s depth transponder or turn the depth transponder off if you hear constant rapid clicking; depth transponders emit noise at 69 kHz that may interfere with communication.</li>
+<li>If current, tides, or winds are strong-enough to make the vessel drift as indicated by the hydrophone cable running at an angle from the vessel, move the vessel so that the angle of the hydrophone’s cable points roughly in the direction of the receiver.</li>
+<li>Select <strong>STATUS</strong>/<strong>GET RANGE</strong> to establish a communications link. This is particularly good to check on some parameters such as depth, tilt and horizontal range (“hRange”) information. This range is often accurate to the distance where the equipment will surface in relation to the vessel. Tilt will be able to indicate if the mooring is still straight up, which means recovery will be successful if the equipment release mechanism does not fail.</li>
+<li>Select <strong>AUTOSCAN</strong> (<strong>TRANSPOND</strong> &gt; Option 1) to wake up all receivers within listening distance. Useful in case of lost or mis-recorded receiver serial numbers.
+<ul>
+<li>The length of time the VR100 listens for a response during <strong>AUTOSCAN</strong> increases each time this option is selected. It may be necessary to reset the transponding session after multiple failed connections to reduce the listening time and increase the frequency of connection attempts. Note that this also resets any custom configurations including the transmission power level. To reset the session, Select <strong>TRANSPONDING</strong> from the main menu (3rd option), then <strong>RESET SESSION</strong> (3rd option).</li>
+</ul></li>
+</ul>
+</section>
+<section id="receiver-not-surfacing" class="level4" data-number="2.1.2.2">
+<h4 data-number="2.1.2.2" class="anchored" data-anchor-id="receiver-not-surfacing"><span class="header-section-number">2.1.2.2</span> Receiver not surfacing</h4>
+<p>Possible causes:</p>
+<ul>
+<li>Obstructions
+<ul>
+<li>fishing line or gear, tree branches, discarded dishwashers</li>
+</ul></li>
+<li>Biofouling causing loss in buoyancy of buoy</li>
+<li>Sedimentation and burial</li>
+<li>Low battery
+<ul>
+<li>In some instances of very low receiver battery, replying to a <strong>STATUS</strong> or <strong>GET RANGE</strong> command will deplete the battery enough to prevent a complete release.</li>
+</ul></li>
+</ul>
 
 
+</section>
+</section>
+</section>
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn1"><p>Wording approximate. To be updated when someone gets eyes-on.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -607,4 +692,4 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 
 
 
-<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions"><ul><li><a href="https://github.com/mhpob/AT-SOP/edit/master/releases.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></div></div></footer></body></html>
+<footer class="footer"><div class="nav-footer"><div class="nav-footer-center"><div class="toc-actions d-sm-block d-md-none"><ul><li><a href="https://github.com/mhpob/AT-SOP/edit/master/releases.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></div></div></footer></body></html>
