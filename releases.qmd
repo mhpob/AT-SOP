@@ -1,1 +1,25 @@
 # Acoustic Release Deployment and Recovery
+
+## Innovasea VR2AR Acoustic Receiver Recovery and ASCENT Acoustic Release
+
+::: {.callout-note collapse="true"}
+Adapted from protocols developed by Bonnie Ahr, Kennedy Space Center.
+:::
+
+### Deployment 
+
+  - Place VR100 on flat surface when possible
+  - Only connect the transponding hydrophone when receiver is powered OFF.
+  - Select **TRANSPOND** from VR100 main menu
+  - If "**CANNOT COMMUNICATE WITH TRANSPONDER**[^1] appears, disconnect and reconnect the hydrophone then select **TRANSPOND** again
+  - Wait for the vessel to stop moving
+  - Place hydrophone in water and select **TRANSPOND** from VR100 main menu
+  - Select the **ADD DEVICE** option manually or by pressing "**2**"
+  - ADD the serial number of the unit you are hoping to release and press **OK**
+  - Select **ACOUSTIC RELEASE** manually or by pressing "**3**"
+  - Select **ACTIVATE** manually or by pressing "**3**" again
+  - Listen for a response from the receiver through the VR100 speaker; "**Sx**", where "**x**" is a number, may also flash on the screen. If the response is successfully received and decoded, you will see the message saying "**Opening**" in the deck box screen and the distance of the hydrophone from the receiver. If you heard a response from the speaker in the form of rhythmic "clicks" but did not see an "Opening" message, the unit has still been released
+  - After a few seconds, Select **STATUS** to update the release status and depth. If the release is successful, the screen will show the message "**Open**" and you should notice the depth changed. If the receiver is stuck at the same depth after a few **STATUS** attempts, you can consider the unit "stuck"
+
+[^1]: Wording approximate. To be updated when someone gets eyes-on.
+

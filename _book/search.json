@@ -80,6 +80,36 @@
     ]
   },
   {
+    "objectID": "releases.html",
+    "href": "releases.html",
+    "title": "2  Acoustic Release Deployment and Recovery",
+    "section": "",
+    "text": "2.1 Innovasea VR2AR Acoustic Receiver Recovery and ASCENT Acoustic Release",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Acoustic Release Deployment and Recovery</span>"
+    ]
+  },
+  {
+    "objectID": "releases.html#innovasea-vr2ar-acoustic-receiver-recovery-and-ascent-acoustic-release",
+    "href": "releases.html#innovasea-vr2ar-acoustic-receiver-recovery-and-ascent-acoustic-release",
+    "title": "2  Acoustic Release Deployment and Recovery",
+    "section": "",
+    "text": "Note\n\n\n\n\n\nAdapted from protocols developed by Bonnie Ahr, Kennedy Space Center.\n\n\n\n\n2.1.1 Deployment\n\nPlace VR100 on flat surface when possible\nOnly connect the transponding hydrophone when receiver is powered OFF.\nSelect TRANSPOND from VR100 main menu\nIf “CANNOT COMMUNICATE WITH TRANSPONDER1 appears, disconnect and reconnect the hydrophone then select TRANSPOND again\nWait for the vessel to stop moving\nPlace hydrophone in water and select TRANSPOND from VR100 main menu\nSelect the ADD DEVICE option manually or by pressing “2”\nADD the serial number of the unit you are hoping to release and press OK\nSelect ACOUSTIC RELEASE manually or by pressing “3”\nSelect ACTIVATE manually or by pressing “3” again\nListen for a response from the receiver through the VR100 speaker; “Sx”, where “x” is a number, may also flash on the screen. If the response is successfully received and decoded, you will see the message saying “Opening” in the deck box screen and the distance of the hydrophone from the receiver. If you heard a response from the speaker in the form of rhythmic “clicks” but did not see an “Opening” message, the unit has still been released\nAfter a few seconds, Select STATUS to update the release status and depth. If the release is successful, the screen will show the message “Open” and you should notice the depth changed. If the receiver is stuck at the same depth after a few STATUS attempts, you can consider the unit “stuck”",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Acoustic Release Deployment and Recovery</span>"
+    ]
+  },
+  {
+    "objectID": "releases.html#footnotes",
+    "href": "releases.html#footnotes",
+    "title": "2  Acoustic Release Deployment and Recovery",
+    "section": "",
+    "text": "Wording approximate.↩︎",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Acoustic Release Deployment and Recovery</span>"
+    ]
+  },
+  {
     "objectID": "references.html",
     "href": "references.html",
     "title": "References",
