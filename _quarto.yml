@@ -1,6 +1,7 @@
 project:
   type: book
 
+
 book:
   title: "Acoustic Telemetry Standard Operating Procedures"
   version: "0.0.1"
@@ -11,6 +12,8 @@ book:
     - releases.qmd
     - transport_and_storage.qmd
     - references.qmd
+  repo-url: https://github.com/mhpob/AT-SOP
+  repo-actions: [edit]
 
 # bibliography: references.bib
 
