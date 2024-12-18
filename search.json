@@ -64,7 +64,7 @@
     "href": "fathom_connect.html#study-configuration",
     "title": "1  Using Fathom Connect",
     "section": "1.6 Study configuration",
-    "text": "1.6 Study configuration",
+    "text": "1.6 Study configuration\n\nThe best laid plans of mice and men often go awry.\n- “To a Mouse”, Robert Burns\n\nTo configure a study, hit the “play” button in the top-left.\n\nA pop-up window will appear requesting study metadata.\n\n\n\n\n\n\nNote\n\n\n\nOcean-Tracking-Network-based networks do not utilize this information when processing or sharing detections. Anything entered here is for your personal use.\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nIt it my preference to only add a descriptive title. As best laid plans … often go awry, receivers sometimes are deployed at stations and locations that weren’t originally planned. Inputting this information can lead to confusion.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Using Fathom Connect</span>"
     ]
