@@ -78,5 +78,25 @@
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Using Fathom Connect</span>"
     ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Useful links",
+    "crumbs": [
+      "References"
+    ]
+  },
+  {
+    "objectID": "references.html#useful-links",
+    "href": "references.html#useful-links",
+    "title": "References",
+    "section": "",
+    "text": "Innovasea Field Communication Guide\nInnovasea VR100 manual\n\n$$6.4.5.4, Pg 74: Performing Acoustic Release\n$$6.4.5.5, Pg 75: Reading/Changing Receiver Transpond Power Level\n$$6.4.1.3, Pg 57: Reset Session\n\nFathom data format\n\n$$1.2: Fathom CSV format",
+    "crumbs": [
+      "References"
+    ]
   }
 ]
