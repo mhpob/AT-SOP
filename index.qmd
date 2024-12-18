@@ -1,0 +1,20 @@
+# Preface {.unnumbered}
+
+What makes a standard *standard*?
+
+**Cooperation.**
+
+Thank you to the following contributors:
+
+ - Bonnie Ahr, Kennedy Space Center
+ - Caitlin Bate, Ocean Tracking Network
+ - Beth Bowers, Smithsonian Environmental Research Center
+ - Brianna Cahill, Stony Brook University
+ - Iago Gradin, Ocean Tracking Network
+ - Cassandra Hartery, Ocean Tracking Network
+ - Mike O'Brien, University of Maryland Center for Environmental Science
+
+
+::: {.callout-note}
+Please insert your name and affiliation above when submitting a pull request!
+:::

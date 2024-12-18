@@ -1,0 +1,82 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Acoustic Telemetry Standard Operating Procedures",
+    "section": "",
+    "text": "Preface\nWhat makes a standard standard?\nCooperation.\nThank you to the following contributors:\n\nBonnie Ahr, Kennedy Space Center\nCaitlin Bate, Ocean Tracking Network\nBeth Bowers, Smithsonian Environmental Research Center\nBrianna Cahill, Stony Brook University\nIago Gradin, Ocean Tracking Network\nCassandra Hartery, Ocean Tracking Network\nMike O’Brien, University of Maryland Center for Environmental Science\n\n\n\n\n\n\n\nNote\n\n\n\nPlease insert your name and affiliation above when submitting a pull request!",
+    "crumbs": [
+      "Preface"
+    ]
+  },
+  {
+    "objectID": "fathom_connect.html",
+    "href": "fathom_connect.html",
+    "title": "1  Using Fathom Connect",
+    "section": "",
+    "text": "1.1 Download and Installation\nDownload and install the Fathom Connect software. This requires Windows 10 or greater as of December 2024.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Using Fathom Connect</span>"
+    ]
+  },
+  {
+    "objectID": "fathom_connect.html#receiver-activation-and-communication",
+    "href": "fathom_connect.html#receiver-activation-and-communication",
+    "title": "1  Using Fathom Connect",
+    "section": "1.2 Receiver activation and communication",
+    "text": "1.2 Receiver activation and communication\nTo communicate with the receiver, the internal Bluetooth transmitter must be activated. To do this, insert a magnet into the hole next to the transmitter’s status light – the magnet could be the bespoke form provided by Innovasea or a standard telescoping magnetic pickup tool from your local hardware store.\nOpen Fathom Connect. You will be greeted by a blank home page:\n\nClick the “refresh” button in the top-left of the screen to scan for receivers. It is likely that you will have to do this more than once to pick up the receiver. A tile will appear when the receiver has been identified:\n\nDouble click on the receiver.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Using Fathom Connect</span>"
+    ]
+  },
+  {
+    "objectID": "fathom_connect.html#firmware-updates",
+    "href": "fathom_connect.html#firmware-updates",
+    "title": "1  Using Fathom Connect",
+    "section": "1.3 Firmware updates",
+    "text": "1.3 Firmware updates\nIf you have updated Fathom Connect since the last time you connected to your receiver, you will likely be greeted with a window warning you that a new firmware version is available.\n\n\n\n\n\n\n\nImportant\n\n\n\nUpdating firmware will delete everything on your receiver!\nMake sure the “Offload first” box is ticked to save data on the receiver before updating the firmware.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Using Fathom Connect</span>"
+    ]
+  },
+  {
+    "objectID": "fathom_connect.html#offloading-data",
+    "href": "fathom_connect.html#offloading-data",
+    "title": "1  Using Fathom Connect",
+    "section": "1.4 Offloading data",
+    "text": "1.4 Offloading data\nIf you were not prompted to update receiver firmware, you will land on the receiver’s Status page. This provides information on battery usage (both CPU and release battery if connected to an acoustic-release receiver), memory usage, connection type (Bluetooth or cabled), internal transmitter status, study metadata, and logged detections and pings.\n\nTo offload data, click the “download” button near the top-left of the screen.\n\nA pop-up will appear asking where you would like the file to be saved and whether you want to offload all data or just new data. Adjust settings and click “Start”.\n\n\n\n\n\n\nTip\n\n\n\nI suggest always selecting “Offload All Data” to hedge against data loss by having redundant records.\n\n\n\n\n\n\n\n\nNote\n\n\n\nFiles are saved to C:\\Users\\USERNAME\\Documents\\Innovasea\\Fathom\\YYYY-mm-DD, where “USERNAME” is your computer’s user name and “YYYY-mm-DD” is today’s date. The “YYYY-MM-DD” portion will be automatically created in the listed directory.\n\n\n\nFathom Connect will ask you to confirm that your computer’s time is correct. If your computer has been connected to the internet for a few minutes, click “OK”.\n\n\n\n\n\n\nWarning\n\n\n\nIf your computer has not been connected to the internet for some time, it has likely experienced clock drift (yes, like a receiver!!). Before proceeding, you should confirm your time with a clock that has been connected to the internet (your phone, another computer, etc.).\n\n\n\nYou will be shown a progress window, culminating in (hopefully) a notification of success!\nNote that the file name is of the form MODEL-KHZ SERIAL YYYY-mm-DD HHMMSS.vdat, spaces included.\n\nNavigate to the file location to confirm that the file has been downloaded and is where you think it is. By default, the file downloaded above went to C:\\Users\\MYUSERNAME\\Documents\\Innovasea\\Fathom\\2024-12-17 as it was created on December 17, 2024.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Using Fathom Connect</span>"
+    ]
+  },
+  {
+    "objectID": "fathom_connect.html#internal-transmitter",
+    "href": "fathom_connect.html#internal-transmitter",
+    "title": "1  Using Fathom Connect",
+    "section": "1.5 Internal transmitter",
+    "text": "1.5 Internal transmitter\n\n1.5.1 Long-term detection range\nIf multiple receivers are planned to be deployed within “earshot” of each other (generally within 200-800 meters, environment-dependent) and your receiver has the capability (anything that isn’t a VR2W), it is worthwhile to activate the internal transmitter in order to characterize detection range during the receiver’s future deployment.\nSelect the Sync Tag option. This will emit the receiver’s programmed transmitter ID every ten minutes, on average.\n\nSelect a power level that is comparable to the targeted transmitters, listed below.\n\n\n\n\n\n\nNote\n\n\n\nAt the time of this writing, the most commonly-deployed transmitters are V16s; the power level should be set to “High” or “Very High”, with a preference to “Very High” as most studies utilize high power to increase detectability.\n\n\n\nVery High = 160 dB\nHigh = 154 dB\nMedium = 148 dB\nLow = 142 dB\n\nTransmitter power:\n\nV16 = 152-162 dB re 1 \\(\\mu\\)Pa @ 1m\nV13 = 147-152 dB re 1 \\(\\mu\\)Pa @ 1m\nV9 = 146-151 dB re 1 \\(\\mu\\)Pa @ 1m\nV8 = 144-147 dB re 1 \\(\\mu\\)Pa @ 1m\nV7 and V6 = 137-141 dB re 1 \\(\\mu\\)Pa @ 1m\n\n\n\n\n\n\n\nNote\n\n\n\nInternal transmitter power is not provided at a reference distance and pressure – this is purposeful, as these are not calibrated values and could be off depending on anything from manufacturing variation to the deployed environment. Because of this, we’re just trying to get in the correct range rather than trying to exactly match any values.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Using Fathom Connect</span>"
+    ]
+  },
+  {
+    "objectID": "fathom_connect.html#study-configuration",
+    "href": "fathom_connect.html#study-configuration",
+    "title": "1  Using Fathom Connect",
+    "section": "1.6 Study configuration",
+    "text": "1.6 Study configuration",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Using Fathom Connect</span>"
+    ]
+  },
+  {
+    "objectID": "fathom_connect.html#closing-a-session",
+    "href": "fathom_connect.html#closing-a-session",
+    "title": "1  Using Fathom Connect",
+    "section": "1.7 Closing a session",
+    "text": "1.7 Closing a session\nWhen everything is finished and you’re ready to deploy the receiver (or put it on the shelf), click the red X.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Using Fathom Connect</span>"
+    ]
+  }
+]
