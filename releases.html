@@ -149,10 +149,14 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#innovasea-vr2ar-acoustic-receiver-recovery-and-ascent-acoustic-release" id="toc-innovasea-vr2ar-acoustic-receiver-recovery-and-ascent-acoustic-release" class="nav-link active" data-scroll-target="#innovasea-vr2ar-acoustic-receiver-recovery-and-ascent-acoustic-release"><span class="header-section-number">2.1</span> Innovasea VR2AR Acoustic Receiver Recovery and ASCENT Acoustic Release</a>
+  <li><a href="#innovasea-vr2ar-and-ascent-release-and-recovery" id="toc-innovasea-vr2ar-and-ascent-release-and-recovery" class="nav-link active" data-scroll-target="#innovasea-vr2ar-and-ascent-release-and-recovery"><span class="header-section-number">2.1</span> Innovasea VR2AR and ASCENT release and recovery</a>
   <ul class="collapse">
-  <li><a href="#deployment" id="toc-deployment" class="nav-link" data-scroll-target="#deployment"><span class="header-section-number">2.1.1</span> Deployment</a></li>
-  <li><a href="#troubleshooting" id="toc-troubleshooting" class="nav-link" data-scroll-target="#troubleshooting"><span class="header-section-number">2.1.2</span> Troubleshooting</a></li>
+  <li><a href="#troubleshooting" id="toc-troubleshooting" class="nav-link" data-scroll-target="#troubleshooting"><span class="header-section-number">2.1.1</span> Troubleshooting</a></li>
+  </ul></li>
+  <li><a href="#innovasea-vr2ar-and-ascent-release-deployment" id="toc-innovasea-vr2ar-and-ascent-release-deployment" class="nav-link" data-scroll-target="#innovasea-vr2ar-and-ascent-release-deployment"><span class="header-section-number">2.2</span> Innovasea VR2AR and ASCENT release deployment</a>
+  <ul class="collapse">
+  <li><a href="#pre-deployment" id="toc-pre-deployment" class="nav-link" data-scroll-target="#pre-deployment"><span class="header-section-number">2.2.1</span> Pre-deployment</a></li>
+  <li><a href="#deployment" id="toc-deployment" class="nav-link" data-scroll-target="#deployment"><span class="header-section-number">2.2.2</span> Deployment</a></li>
   </ul></li>
   </ul>
 <div class="toc-actions"><ul><li><a href="https://github.com/mhpob/AT-SOP/edit/master/releases.qmd" class="toc-action"><i class="bi bi-github"></i>Edit this page</a></li></ul></div></nav>
@@ -179,8 +183,8 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="innovasea-vr2ar-acoustic-receiver-recovery-and-ascent-acoustic-release" class="level2" data-number="2.1">
-<h2 data-number="2.1" class="anchored" data-anchor-id="innovasea-vr2ar-acoustic-receiver-recovery-and-ascent-acoustic-release"><span class="header-section-number">2.1</span> Innovasea VR2AR Acoustic Receiver Recovery and ASCENT Acoustic Release</h2>
+<section id="innovasea-vr2ar-and-ascent-release-and-recovery" class="level2" data-number="2.1">
+<h2 data-number="2.1" class="anchored" data-anchor-id="innovasea-vr2ar-and-ascent-release-and-recovery"><span class="header-section-number">2.1</span> Innovasea VR2AR and ASCENT release and recovery</h2>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
@@ -197,8 +201,6 @@ Note
 </div>
 </div>
 </div>
-<section id="deployment" class="level3" data-number="2.1.1">
-<h3 data-number="2.1.1" class="anchored" data-anchor-id="deployment"><span class="header-section-number">2.1.1</span> Deployment</h3>
 <ul>
 <li>Place VR100 on flat surface when possible</li>
 <li>Only connect the transponding hydrophone when receiver is powered OFF.</li>
@@ -213,11 +215,10 @@ Note
 <li>Listen for a response from the receiver through the VR100 speaker; “<strong>Sx</strong>”, where “<strong>x</strong>” is a number, may also flash on the screen. If the response is successfully received and decoded, you will see the message saying “<strong>Opening</strong>” in the deck box screen and the distance of the hydrophone from the receiver. If you heard a response from the speaker in the form of rhythmic “clicks” but did not see an “Opening” message, the unit has still been released</li>
 <li>After a few seconds, Select <strong>STATUS</strong> to update the release status and depth. If the release is successful, the screen will show the message “<strong>Open</strong>” and you should notice the depth changed. If the receiver is stuck at the same depth after a few <strong>STATUS</strong> attempts, you can consider the unit “stuck”</li>
 </ul>
-</section>
-<section id="troubleshooting" class="level3" data-number="2.1.2">
-<h3 data-number="2.1.2" class="anchored" data-anchor-id="troubleshooting"><span class="header-section-number">2.1.2</span> Troubleshooting</h3>
-<section id="poor-communication" class="level4" data-number="2.1.2.1">
-<h4 data-number="2.1.2.1" class="anchored" data-anchor-id="poor-communication"><span class="header-section-number">2.1.2.1</span> Poor Communication</h4>
+<section id="troubleshooting" class="level3" data-number="2.1.1">
+<h3 data-number="2.1.1" class="anchored" data-anchor-id="troubleshooting"><span class="header-section-number">2.1.1</span> Troubleshooting</h3>
+<section id="poor-communication" class="level4" data-number="2.1.1.1">
+<h4 data-number="2.1.1.1" class="anchored" data-anchor-id="poor-communication"><span class="header-section-number">2.1.1.1</span> Poor Communication</h4>
 <ul>
 <li>Set <strong>TRANSMIT POWER</strong> to a lower setting to reduce echo noise. The default is 7 (high). Moving 30-50m from the location of the receiver may also help.</li>
 <li>You can also switch the detection parameter between Near, Normal, and Far. Most units will communicate better in the Normal setting, but if there is trouble establishing a connection, it is worth trying the other settings.</li>
@@ -230,8 +231,8 @@ Note
 </ul></li>
 </ul>
 </section>
-<section id="receiver-not-surfacing" class="level4" data-number="2.1.2.2">
-<h4 data-number="2.1.2.2" class="anchored" data-anchor-id="receiver-not-surfacing"><span class="header-section-number">2.1.2.2</span> Receiver not surfacing</h4>
+<section id="receiver-not-surfacing" class="level4" data-number="2.1.1.2">
+<h4 data-number="2.1.1.2" class="anchored" data-anchor-id="receiver-not-surfacing"><span class="header-section-number">2.1.1.2</span> Receiver not surfacing</h4>
 <p>Possible causes:</p>
 <ul>
 <li>Obstructions
@@ -245,9 +246,51 @@ Note
 <li>In some instances of very low receiver battery, replying to a <strong>STATUS</strong> or <strong>GET RANGE</strong> command will deplete the battery enough to prevent a complete release.</li>
 </ul></li>
 </ul>
-
-
 </section>
+</section>
+</section>
+<section id="innovasea-vr2ar-and-ascent-release-deployment" class="level2" data-number="2.2">
+<h2 data-number="2.2" class="anchored" data-anchor-id="innovasea-vr2ar-and-ascent-release-deployment"><span class="header-section-number">2.2</span> Innovasea VR2AR and ASCENT release deployment</h2>
+<section id="pre-deployment" class="level3" data-number="2.2.1">
+<h3 data-number="2.2.1" class="anchored" data-anchor-id="pre-deployment"><span class="header-section-number">2.2.1</span> Pre-deployment</h3>
+<section id="vr2ar" class="level4" data-number="2.2.1.1">
+<h4 data-number="2.2.1.1" class="anchored" data-anchor-id="vr2ar"><span class="header-section-number">2.2.1.1</span> VR2AR</h4>
+<ul>
+<li>Offload receiver data using VUE or <a href="./fathom_connect.html">Fathom Connect</a></li>
+<li>Rebattery VR2AR. Batteries last approximately 14 months.</li>
+<li>Reset battery use indicator when prompted in VUE or Fathom Connect.</li>
+<li>Note if the internal motor release battery needs to be changed. The release battery is different from the receiver battery. Refer to the <a href="https://support.fishtracking.innovasea.com/s/article/When-should-I-replace-my-VR2AR-ASCENT-acoustic-release-battery">Innovasea guide linked here</a>.</li>
+<li>Rearm lug with retaining pin and O-ring. Both are critical. Make sure to grease upper half of lug copper sleeve and internal threaded rod.</li>
+<li>If using VUE, make sure that temperature, tilt, depth and noise sensors are recording by clicking <strong>TRANSMITTER OPTIONS</strong>, found under the gear icon</li>
+<li>For all four sensors, check <strong>LOG STATS</strong> buttons with a period of 3600 sec.&nbsp;Do not select <strong>LOG SAMPLES</strong>.</li>
+<li>If receivers will be deployed within 1 km of each other, set the internal transmitter with Profile=Sync Tag, Power=Very High.
+<ul>
+<li>VUE: gear icon -&gt; <strong>TRANSMITTER OPTIONS</strong></li>
+<li>Fathom Connect: <em>Self-Transmitter</em> tab; <a href="fathom_connect.html#internal-transmitter">further information here.</a></li>
+</ul></li>
+</ul>
+</section>
+<section id="vr100" class="level4" data-number="2.2.1.2">
+<h4 data-number="2.2.1.2" class="anchored" data-anchor-id="vr100"><span class="header-section-number">2.2.1.2</span> VR100</h4>
+<ul>
+<li>Plug charging cable into AC or DC source and drybox port</li>
+<li>Keep drybox on flat surface and out of hot sun to avoid faults</li>
+<li>Charging is complete in 14 hours</li>
+<li>Receiver is functional when charging but may decrease performance</li>
+<li>Battery life 12 hours but less with backlight on</li>
+<li>Receiver can remain charging for extended periods (days)</li>
+<li>Charge every 3-4 months when in storage and never completely discharge battery</li>
+</ul>
+</section>
+</section>
+<section id="deployment" class="level3" data-number="2.2.2">
+<h3 data-number="2.2.2" class="anchored" data-anchor-id="deployment"><span class="header-section-number">2.2.2</span> Deployment</h3>
+<ul>
+<li>Drop mooring/receiver as close as possible to+/- 2 m from planned location. It is likely that the mooring will move 2-10m from location of deployment during descent if released freely from surface.</li>
+<li>If time allows, check tilt of sensor after deployment using the <strong>STATUS</strong>/<strong>GET RANGE</strong> process outlined above</li>
+</ul>
+
+
 </section>
 </section>
 <section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
