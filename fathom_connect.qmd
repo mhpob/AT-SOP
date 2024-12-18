@@ -109,12 +109,24 @@ Internal transmitter power is not provided at a reference distance and pressure 
 
 ## Study configuration
 
+> The best laid plans of mice and men often go awry.  
+  - "To a Mouse", Robert Burns
 
+To configure a study, hit the "play" button in the top-left.
 
 ![](images/fathom/buttons_config.png)
 
+A pop-up window will appear requesting study metadata.
+
+::: {.callout-note}
+Ocean-Tracking-Network-based networks do not utilize this information when processing or sharing detections. Anything entered here is for your personal use.
+:::
 
 ![](images/fathom/study_config.png)
+
+::: {.callout-tip}
+It it my preference to only add a descriptive title. As *best laid plans ... often go awry*, receivers sometimes are deployed at stations and locations that weren't originally planned. Inputting this information can lead to confusion.
+:::
 
 
 ## Closing a session
