@@ -1,12 +1,10 @@
 # Acoustic Release Deployment and Recovery
 
-## Innovasea VR2AR Acoustic Receiver Recovery and ASCENT Acoustic Release
+## Innovasea VR2AR and ASCENT release and recovery
 
 ::: {.callout-note collapse="true"}
 Adapted from protocols developed by Bonnie Ahr, Kennedy Space Center.
 :::
-
-### Deployment 
 
   - Place VR100 on flat surface when possible
   - Only connect the transponding hydrophone when receiver is powered OFF.
@@ -45,3 +43,36 @@ Possible causes:
   - Sedimentation and burial
   - Low battery
     - In some instances of very low receiver battery, replying to a **STATUS** or **GET RANGE** command will deplete the battery enough to prevent a complete release.
+
+
+## Innovasea VR2AR and ASCENT release deployment
+
+### Pre-deployment
+
+#### VR2AR
+
+  - Offload receiver data using VUE or [Fathom Connect](fathom_connect.qmd)
+  - Rebattery VR2AR. Batteries last approximately 14 months.
+  - Reset battery use indicator when prompted in VUE or Fathom Connect.
+  - Note if the internal motor release battery needs to be changed. The release battery is different from the receiver battery. Refer to the [Innovasea guide linked here](https://support.fishtracking.innovasea.com/s/article/When-should-I-replace-my-VR2AR-ASCENT-acoustic-release-battery).
+  - Rearm lug with retaining pin and O-ring. Both are critical. Make sure to grease upper half of lug copper sleeve and internal threaded rod.
+  - If using VUE, make sure that temperature, tilt, depth and noise sensors are recording by clicking **TRANSMITTER OPTIONS**, found under the gear icon
+  - For all four sensors, check **LOG STATS** buttons with a period of 3600 sec. Do not select **LOG SAMPLES**.
+  - If receivers will be deployed within 1 km of each other, set the internal transmitter with Profile=Sync Tag, Power=Very High.
+    - VUE: gear icon -> **TRANSMITTER OPTIONS**
+    - Fathom Connect: *Self-Transmitter* tab; [further information here.](#internal-transmitter)
+
+#### VR100
+
+  - Plug charging cable into AC or DC source and drybox port
+  - Keep drybox on flat surface and out of hot sun to avoid faults
+  - Charging is complete in 14 hours
+  - Receiver is functional when charging but may decrease performance
+  - Battery life 12 hours but less with backlight on
+  - Receiver can remain charging for extended periods (days)
+  - Charge every 3-4 months when in storage and never completely discharge battery
+
+### Deployment
+
+  - Drop mooring/receiver as close as possible to+/- 2 m from planned location. It is likely that the mooring will move 2-10m from location of deployment during descent if released freely from surface.
+  - If time allows, check tilt of sensor after deployment using the **STATUS**/**GET RANGE** process outlined above

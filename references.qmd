@@ -13,3 +13,4 @@
     - $\S$6.4.1.3, Pg 57: Reset Session
   - [Fathom data format](https://go.innovasea.com/vr2tx_fathom_data_format.pdf)
     - $\S$1.2: Fathom CSV format
+  - [When should I replace my Innovasea acoustic release battery?](https://support.fishtracking.innovasea.com/s/article/When-should-I-replace-my-VR2AR-ASCENT-acoustic-release-battery)
