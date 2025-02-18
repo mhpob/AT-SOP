@@ -1,5 +1,27 @@
-# Acoustic Release Deployment and Recovery
-
+---
+title: Acoustic Release Deployment and Recovery
+author:
+  - name: Michael O'Brien
+    orcid: 0000-0003-1420-6395
+    email: obrien@umces.edu
+    affiliations:
+        name: University of Maryland Center for Environmental Science
+  - name: Bonnie Ahr
+    affiliations:
+        name: Kennedy Space Center
+  - name: Caitlin Bate
+    affiliations:
+      - name: Ocean Tracking Network
+  - name: Brianna Cahill
+    affiliations:
+      - name: Stony Brook University
+  - name: Iago Gradin
+    affiliations:
+      - name: Ocean Tracking Network
+  - name: Cassandra Hartery
+    affiliations:
+      - name: Ocean Tracking Network
+---
 ## Innovasea VR2AR and ASCENT release and recovery
 
 ::: {.callout-note collapse="true"}

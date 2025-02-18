@@ -4,6 +4,17 @@ project:
 
 book:
   title: "Acoustic Telemetry Standard Operating Procedures"
+  author:
+    - name: Michael O'Brien
+      orcid: 0000-0003-1420-6395
+      email: obrien@umces.edu
+      affiliations:
+        name: University of Maryland Center for Environmental Science
+    - name: Mary Elizabeth Bowers
+      orcid: 0000-0002-5823-186X
+      email: bowersme@si.edu
+      affiliations:
+        name: Smithsonian Estuarine Research Center
   version: "0.0.1"
   date: "12/18/2024"
   chapters:

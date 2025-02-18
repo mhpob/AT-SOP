@@ -1,4 +1,12 @@
-# Using Fathom Connect
+---
+title: Using Fathom Connect
+author:
+  - name: Michael O'Brien
+    orcid: 0000-0003-1420-6395
+    email: obrien@umces.edu
+    affiliations:
+      name: University of Maryland Center for Environmental Science
+---
 
 ## Download and Installation
 
