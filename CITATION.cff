@@ -1,18 +1,20 @@
 cff-version: 1.2.0
-title: Acoustic Telemetry Standard Operating Procedures
-type: manual
-authors:
-  - given-names: Michael
-    family-names: O'Brien
-    email: obrien@umces.edu
-    affiliation: University of Maryland Center for Environmental Science
-    orcid: 'https://orcid.org/0000-0003-1420-6395'
-  - given-names: Mary Elizabeth
-    family-names: Bowers
-    email: bowersme@si.edu
-    affiliation: Smithsonian Estuarine Research Center
-    orcid: 'https://orcid.org/0000-0002-5823-186X'
-url: 'https://at-sop.obrien.page'
+preferred-citation:
+  title: Acoustic Telemetry Standard Operating Procedures
+  type: manual
+  version: 0.0.1
+  authors:
+    - given-names: Michael
+      family-names: O'Brien
+      email: obrien@umces.edu
+      affiliation: University of Maryland Center for Environmental Science
+      orcid: 'https://orcid.org/0000-0003-1420-6395'
+    - given-names: Mary Elizabeth
+      family-names: Bowers
+      email: bowersme@si.edu
+      affiliation: Smithsonian Estuarine Research Center
+      orcid: 'https://orcid.org/0000-0002-5823-186X'
+  url: 'https://at-sop.obrien.page'
 keywords:
   - Acoustic Telemetry
 license: CC-BY-4.0
