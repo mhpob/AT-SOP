@@ -10,7 +10,14 @@ author:
 
 ## Download and Installation
 
-[Download and install the Fathom Connect software](https://go.innovasea.com/l/857523/2020-03-17/52d9?Redirect=https://innovasea.my.salesforce.com/sfc/p/41000000flbW/a/OO000000M7cL/BQ3ZOlAidUVjrBh8rOzNkz6IJEPwDHUuXQ8EHkXYDdQ). This requires Windows 10 or greater as of December 2024.
+### Windows
+
+[Download and install the Fathom Connect software](https://support.fishtracking.innovasea.com/s/downloads). The application requires Windows 10 or greater.
+
+### macOS and Linux
+
+As of the time of writing (April 2025), there is no macOS or Linux support for Fathom Connect. I suggest using [Wine](https://gitlab.winehq.org/wine/wine/-/wikis/Download) to unpack and run Fathom Connect.
+
 
 ## Receiver activation and communication
 
