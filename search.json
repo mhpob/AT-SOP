@@ -14,7 +14,17 @@
     "href": "fathom_connect.html",
     "title": "1  Using Fathom Connect",
     "section": "",
-    "text": "1.1 Download and Installation\nDownload and install the Fathom Connect software. This requires Windows 10 or greater as of December 2024.",
+    "text": "1.1 Download and Installation",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Using Fathom Connect</span>"
+    ]
+  },
+  {
+    "objectID": "fathom_connect.html#download-and-installation",
+    "href": "fathom_connect.html#download-and-installation",
+    "title": "1  Using Fathom Connect",
+    "section": "",
+    "text": "1.1.1 Windows\nDownload and install the Fathom Connect software. The application requires Windows 10 or greater.\n\n\n1.1.2 macOS and Linux\nAs of the time of writing (April 2025), there is no macOS or Linux support for Fathom Connect. I suggest using Wine to unpack and run Fathom Connect.",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Using Fathom Connect</span>"
     ]
